@@ -9,8 +9,8 @@ import Login from "./components/login";
 
 function App() {
   const [viewport, setViewport] = useState({
-    width: "100vw",
-    height: "100vh",
+    width: "100",
+    height: "100",
     latitude: 20.5937,
     longitude: 78.9629,
     zoom: 4,
