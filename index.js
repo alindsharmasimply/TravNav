@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+const path = require("path");
 
 dotenv.config();
 
@@ -22,7 +23,7 @@ app.use(express.json());
 app.use("/api/pins", require("./routes/pins.routes"));
 app.use("/api/users", require("./routes/users.routes"));
 
-//const __dirname = path.resolve();
+const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {
   //
