@@ -6,8 +6,7 @@ import axios from "axios";
 import "./App.css";
 import Register from "./components/register";
 import Login from "./components/login";
-import "mapbox-gl/dist/mapbox-gl.css";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 // @ts-ignore
 // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
 
