@@ -33,6 +33,8 @@ function App() {
       try {
         const allPins = await axios.get("/pins");
         setPins(allPins.data);
+        console.log("This is printing of allPins ", allPins);
+        console.log("This is printing of pins ", pins);
       } catch (err) {
         console.log(err);
       }
