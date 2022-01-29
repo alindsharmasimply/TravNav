@@ -6,7 +6,6 @@ import axios from "axios";
 import "./App.css";
 import Register from "./components/register";
 import Login from "./components/login";
-import ReactMapGL, { FlyToInterpolator, NavigationControl } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl";
 // @ts-ignore
